@@ -39,6 +39,13 @@ h3 {
   line-height: 27.24px;
   text-align: left;
 }
+#welcome {
+  display: flex;
+  justify-content: center;
+}
+#welcome img {
+  width: 40%;
+}
 .contact {
   display: flex;
 }
@@ -60,13 +67,12 @@ h3 {
   .cardImg2 {
     height: 600px;
   }
-  .welcomeImg {
-    height: 50%;
-    padding-right: 10%;
+  #welcome {
+    display: grid;
+    justify-content: end;
   }
-  .welcomeText {
-    margin-left: -25%;
-    padding-left: 20%;
+  #welcome img {
+    width: 100%;
   }
   #footer {
     padding-left: 0;
