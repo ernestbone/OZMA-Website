@@ -1,0 +1,75 @@
+.container-fluid {
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.nav-link {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.43px;
+  text-align: left;
+
+  color: #000000;
+}
+
+#active {
+  border-bottom-color: #fa873e;
+}
+.ozma-logo {
+  width: 20%;
+  height: 20%;
+  margin-right: 15%;
+  margin-top: -1%;
+}
+h2 {
+  color: #fa873e;
+  font-family: Open Sans;
+  font-size: 49px;
+  font-weight: 600;
+  line-height: 66.73px;
+}
+h3 {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.24px;
+  text-align: left;
+}
+.contact {
+  display: flex;
+}
+#address-icon {
+  width: 25px;
+  height: 10%;
+}
+
+#footer {
+  padding-left: 4%;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+  }
+  .cardImg {
+    height: 300px;
+  }
+  .cardImg2 {
+    height: 600px;
+  }
+  .welcomeImg {
+    height: 50%;
+    padding-right: 10%;
+  }
+  .welcomeText {
+    margin-left: -25%;
+    padding-left: 20%;
+  }
+  #footer {
+    padding-left: 0;
+    text-align: center;
+  }
+}
