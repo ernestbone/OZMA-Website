@@ -81,4 +81,7 @@ h3 {
   .whatWeDo {
     display: grid;
   }
+  img {
+    border-radius: 20px;
+  }
 }
